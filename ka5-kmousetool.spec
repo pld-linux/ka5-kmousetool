@@ -34,8 +34,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 KMouseTool is a Linux-based KDE program. It clicks the mouse for you,
-so you don't have to. It clicks the mouse for you, so you don't have
-to. KMouseTool works with any mouse or pointing device.
+so you don't have to. KMouseTool works with any mouse or pointing device.
+
+%description -l pl.UTF-8
+KMouseTool jest opartym na Linuksie programem KDE. Klika myszą za Ciebie,
+więc Ty już nie musisz. KMouseTool działa z każdą myszą lub innym
+urządzeniem wskazującym.
 
 %prep
 %setup -q -n %{kaname}-%{version}
