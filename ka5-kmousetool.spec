@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	23.08.2
+%define		kdeappsver	23.08.3
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		kmousetool
 Summary:	kmousetool
 Name:		ka5-%{kaname}
-Version:	23.08.2
+Version:	23.08.3
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications/Games
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	bdad2e62a8ee09ab51a586712544421a
+# Source0-md5:	df5f1a8840a72ab5e2456741bd6aa425
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= %{qtver}
 BuildRequires:	Qt5Gui-devel
